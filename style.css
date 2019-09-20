@@ -4,7 +4,7 @@
 }
 
 header {
-  background: #55d6aa;
+  background: Transparent;
 }
 
 header::after {
@@ -15,8 +15,15 @@ header::after {
 
 .logo {
   float:  left;
-  padding: 10px;
+  padding: 5px;
+  width: 70px;
+  height: 55px;
 }
+
+nav{
+  float: right;
+}
+
 
 nav ul {
   margin: 0;
@@ -36,17 +43,18 @@ nav li {
 }
 
 nav button {
-  color: #444;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   background-color: Transparent;
   border: none;
   cursor: pointer;
   font-size: 10px;
+  outline: none;
 }
 
 nav button:hover {
-  color: #ffffff;
+  color: #FF0000;
 }
 
 nav button:before {
