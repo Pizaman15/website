@@ -684,3 +684,8 @@ h5 {
     font-family:  Courier, monospace;
     color: rgb(255, 255, 255);
   }
+
+  body {
+    overflow-y: auto;
+    background: Transparent;
+  }
