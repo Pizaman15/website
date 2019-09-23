@@ -81,7 +81,7 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
-#stars {
+.stars {
   width: 1px;
   height: 1px;
   background: transparent;
@@ -265,7 +265,7 @@ html {
     696px 1654px #fff, 1144px 60px #fff;
 }
 
-#stars:after{
+.stars:after{
   content: '';
   position: absolute;
   top: 2000px;
@@ -452,7 +452,7 @@ html {
 
 }
 
-#stars2 {
+.stars2 {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -511,7 +511,7 @@ html {
 
 }
 
-#stars2:after {
+.stars2:after {
   content: '';
   position: absolute;
   top: 2000px;
@@ -571,7 +571,7 @@ html {
     986px 1529px #fff, 1667px 1137px #fff;
 }
 
-#stars3 {
+.stars3 {
   width: 3px;
   height: 3px;
   background: transparent;
@@ -605,7 +605,7 @@ html {
 
 }
 
-#stars3:after {
+.stars3:after {
   content: '';
   position: absolute;
   top: 2000px;
@@ -648,7 +648,7 @@ html {
     transform: translateX(-2000px);
   }
 }
-/* dont touch anything above this line */
+/*<--------------------------------------- dont touch anything above this line  ----------------------------------------------------------------------->*/
 
 p {
   font-family: Courier, monospace;
