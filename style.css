@@ -20,6 +20,15 @@ header::after {
   height: 55px;
 }
 
+.pic {
+  float: right;
+  height: 304px;
+  width: 552px;
+  border-radius: 20px;
+  border-width: 6px;
+  border-style: groove;
+}
+
 nav{
   float: right;
 }
