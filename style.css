@@ -20,17 +20,25 @@ header::after {
   height: 55px;
 }
 
-.pic {
-  float: right;
-  height: 304px;
-  width: 552px;
-  border-radius: 20px;
-  border-width: 6px;
-  border-style: groove;
-}
-
 nav{
   float: right;
+}
+.First {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.Future {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.Omni {
+  float: right;
+  margin left: 0px 0px 0px 30px;
+  width: 200px;
 }
 
 
