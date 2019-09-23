@@ -706,3 +706,11 @@ h5 {
     overflow-y: auto;
     background: Transparent;
   }
+
+.pic {
+  border-radius: 5%;
+  border: groove;
+  border-width: 6px;
+  height: 100px;
+  width: 200px;
+}
